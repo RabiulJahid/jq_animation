@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!--Fonts links-->
+
+        <!--CSS Links-->
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css " />
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/media.css" />
+        <title>All Effect</title>
+    </head>
+    <body>
+    <!--ONE-->    
+<div class="one">
+
+
+<div class="toggler">
+  <div id="effect" class="ui-widget-content ui-corner-all">
+    <h3 class="ui-widget-header ui-corner-all text-primary">Effect</h3>
+    <p class="text-danger">
+      Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+    </p>
+  </div>
+</div>
+ 
+<select name="effects" id="effectTypes">
+  <option value="blind">Blind</option>
+  <option value="bounce">Bounce</option>
+  <option value="clip">Clip</option>
+  <option value="drop">Drop</option>
+  <option value="explode">Explode</option>
+  <option value="fade">Fade</option>
+  <option value="fold">Fold</option>
+  <option value="highlight">Highlight</option>
+  <option value="puff">Puff</option>
+  <option value="pulsate">Pulsate</option>
+  <option value="scale">Scale</option>
+  <option value="shake">Shake</option>
+  <option value="size">Size</option>
+  <option value="slide">Slide</option>
+  <option value="transfer">Transfer</option>
+</select>
+ 
+<button id="button" class="ui-state-default ui-corner-all">Run Effect</button>
+</div>
+
+<!--TWO Position-->
+<div class="two">
+<div id="parent">
+  <p>
+  This is the position parent element.
+  </p>
+</div>
+ 
+<div class="positionable" id="positionable1">
+  <p>
+  Position 1
+  </p>
+</div>
+ 
+<div class="positionable" id="positionable2">
+  <p>
+  Position 2
+  </p>
+</div>
+ 
+<div style="padding: 20px; margin-top: 20px;">
+  Position...
+  <div style="padding-bottom: 20px;">
+    <b>My:</b>
+    <select id="my_horizontal">
+      <option value="left">left</option>
+      <option value="center">center</option>
+      <option value="right">right</option>
+    </select>
+    <select id="my_vertical">
+      <option value="top">top</option>
+      <option value="center">center</option>
+      <option value="bottom">bottom</option>
+    </select>
+  </div>
+  <div style="padding-bottom: 20px;">
+    <b>At:</b>
+    <select id="at_horizontal">
+      <option value="left">Left</option>
+      <option value="center">Center</option>
+      <option value="right">Right</option>
+    </select>
+    <select id="at_vertical">
+      <option value="top">Top</option>
+      <option value="center">Center</option>
+      <option value="bottom">Bottom</option>
+    </select>
+  </div>
+  <div style="padding-bottom: 20px;">
+    <b>Collision:</b>
+    <select id="collision_horizontal">
+      <option value="flip">Flip</option>
+      <option value="fit">Fit</option>
+      <option value="flipfit">Flipfit</option>
+      <option value="none">None</option>
+    </select>
+    <select id="collision_vertical">
+      <option value="flip">Flip</option>
+      <option value="fit">Fit</option>
+      <option value="flipfit">Flipfit</option>
+      <option value="none">None</option>
+    </select>
+  </div>
+</div>
+</div>
+
+<!--THREE-->
+<div class="three">
+  <div id="my-widget1">color me</div>
+  <div id="my-widget2">color me</div>
+  <div id="my-widget3">color me</div>
+  <button id="disable" class="mt-3 text-danger">Toggle disabled option</button>
+  <button id="green" class="text-gray-dark">Go green</button>
+</div>
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- JS Links-->
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
